@@ -2,6 +2,8 @@ version: "3"
 services :
   node-app:
     container_name: express-node-app-container
+    image:  souayah21/startingwithdocker
+
     #depends_on : 
     #  - postgres
     #  - redis

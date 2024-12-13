@@ -61,7 +61,7 @@ app.listen(PORT, ()=> { console.log(`App is running on port ${PORT} `)});
 
 app.get('/', (req, res)=> {
     redisClient.set("name", "Malek Souayah hhhh")
-    res.send('<h1>Hello Docker Malek Souayah 2001 </h1>')}
+    res.send('<h1>Hello Docker Malek Souayah 2001 , using aws and docker hub</h1>')}
 )
 
 app.get('/data', async(req, res)=> {
